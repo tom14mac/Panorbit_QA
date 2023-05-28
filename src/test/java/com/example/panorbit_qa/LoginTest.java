@@ -60,8 +60,9 @@ public class LoginTest {
         driver.findElement(By.xpath("//button[@id='loginbutton']")).click();
         System.out.println(readWriteExcel.getStatus());
         readWriteExcel.Write_Status_pass();
+        driver.close();
     }
-    @Test(description = "Update Actual Test result from Excel Testdata from valida credentials", priority = 3)
+    @Test(description = "Verify Update Actual Test result from Excel Testdata from valida credentials", priority = 3)
     public void Test_Result() throws IOException {
         System.out.println(readWriteExcel.getEmail());
         System.out.println(readWriteExcel.getPassword());
