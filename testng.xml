@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/tejaskumar.macwan/IdeaProjects/Panorbit_QA/src/test/java/com/example/panorbit_qa">
+        <classes>
+            <class name="com.example.panorbit_qa.LoginTest">
+                <methods>
+                    <include name="check_invalid_login"/>
+                    <include name="Test_Result_f"/>
+                    <include name="check_Valid_login"/>
+                    <include name="Test_Result"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
